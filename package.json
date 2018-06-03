@@ -1,0 +1,20 @@
+{
+  "name": "dmm-web-api-with-gas",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "babel src --watch -d clasp",
+    "build": "babel src --compact=true -d clasp"
+  },
+  "author": "soarflat",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-dotenv": "^0.1.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "prettier": "^1.13.4"
+  }
+}

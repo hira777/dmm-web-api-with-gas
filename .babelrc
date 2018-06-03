@@ -1,0 +1,14 @@
+{
+  "presets": [
+    "env"
+  ],
+  "plugins": [
+    "transform-object-rest-spread",
+    [
+      "babel-plugin-dotenv",
+      {
+        "replacedModuleName": "babel-dotenv"
+      }
+    ]
+  ]
+}
